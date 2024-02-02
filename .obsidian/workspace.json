@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Nginx/Nginx日志中相关时间变量.md",
+                "file": "Kubernetes/nginx Ingress支持低版本SSL TLS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Nginx/Nginx日志中相关时间变量.md",
+                "file": "Kubernetes/nginx Ingress支持低版本SSL TLS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Nginx/Nginx日志中相关时间变量.md",
+                "file": "Kubernetes/nginx Ingress支持低版本SSL TLS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Nginx/Nginx日志中相关时间变量.md"
+                "file": "Kubernetes/nginx Ingress支持低版本SSL TLS.md"
               }
             }
           }
@@ -148,8 +148,8 @@
   },
   "active": "3fccdfe5c5ca3829",
   "lastOpenFiles": [
-    "Nginx/img/nginx请求与时间变量关系.png",
     "Nginx/Nginx日志中相关时间变量.md",
+    "Nginx/img/nginx请求与时间变量关系.png",
     "README.md",
     "Nginx/img",
     "Kubernetes/nginx Ingress支持低版本SSL TLS.md",
