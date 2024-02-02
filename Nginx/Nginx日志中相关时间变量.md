@@ -13,7 +13,23 @@
 该时间记录的是`与后端建立连接`所花费的时间(如果是加密传输ssl，则包括握手的时间)
 ### 1.4 upstream_header_time(1.7.10后)
 [官方文档](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#var_upstream_addr)
+
 **官方含义解释**: keeps time spent on receiving the response header from the upstream server (1.7.10); the time is kept in seconds with millisecond resolution. Times of several responses are separated by commas and colons like addresses in the [$upstream_addr](http://nginx.org/en/docs/http/ngx_http_upstream_module.html#var_upstream_addr) variable.
 该时间记录的是`接收到后端响应头`所花费的时间
 
 ## 2.  时间分析
+### 2.1 流程
+整个链路流程： 
+	1. 用户请求 [1] 
+	2. 建立Nginx连接 [2] 
+	3. 发送响应到后端  [3]
+	4. 接受后端响应 [4]
+	5. 关闭Nginx连接 [5]
+那么：
+		request_time = 1 + 2 + 3 + 4 + 5 
+		upstream_response_time = 2 + 3 + 4 +5
+其中第五步关闭Nginx连接时间一般可以忽略不记
+
+整个流程以及相关时间变量关系可以借用下图来进行说明(图源自网络)
+[[nginx请求与时间变量关系.png]]
+

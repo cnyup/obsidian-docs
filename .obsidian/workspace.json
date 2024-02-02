@@ -148,8 +148,11 @@
   },
   "active": "3fccdfe5c5ca3829",
   "lastOpenFiles": [
-    "Kubernetes/nginx Ingress支持低版本SSL TLS.md",
+    "Nginx/img/nginx请求与时间变量关系.png",
     "Nginx/Nginx日志中相关时间变量.md",
+    "README.md",
+    "Nginx/img",
+    "Kubernetes/nginx Ingress支持低版本SSL TLS.md",
     "Kubernetes",
     "Nginx"
   ]

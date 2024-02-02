@@ -16,7 +16,8 @@ ssl-protocols: "TLSv1 TLSv1.1 TLSv1.2 TLSv1.3"
 	 -  使用testssl.sh验证  testssl.sh [url]
 	 -  使用已封装好的docker镜像验证  docker run --rm -it mvance/testssl -p [url]
 ### 参考文献及方法
-[阿里云 Nginx Ingress FAQ](https://help.aliyun.com/zh/ack/ack-managed-and-ack-dedicated/user-guide/nginx-ingress-faq)
+- [阿里云 Nginx Ingress FAQ](https://help.aliyun.com/zh/ack/ack-managed-and-ack-dedicated/user-guide/nginx-ingress-faq)
+
 [kubernetes Ingress-Nginx](https://kubernetes.github.io/ingress-nginx/user-guide/tls/#default-tls-version-and-ciphers)
 [Mozilla SSL 配置生成器](https://ssl-config.mozilla.org/)
 [testssl脚本](https://github.com/drwetter/testssl.sh)
