@@ -34,3 +34,7 @@
 整个流程以及相关时间变量关系可以借用下图来进行说明(图源自网络)
 
 [nginx请求与时间变量关系](https://github.com/cnyup/obsidian-docs/blob/main/Nginx/img/nginx%E8%AF%B7%E6%B1%82%E4%B8%8E%E6%97%B6%E9%97%B4%E5%8F%98%E9%87%8F%E5%85%B3%E7%B3%BB.png)
+
+### 参考文献
+- [Nginx官方文档](https://nginx.org/en/docs/)
+- [Nginx - request_time和upstream_response_time详解](https://blog.csdn.net/zzhongcy/article/details/105819628)
