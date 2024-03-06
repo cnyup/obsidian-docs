@@ -146,12 +146,13 @@
       "command-palette:打开命令面板": false
     }
   },
-  "active": "3fccdfe5c5ca3829",
+  "active": "859c0f897599bac3",
   "lastOpenFiles": [
-    "Nginx/img/nginx请求与时间变量关系.png",
+    "Nginx/Nginx 关于下线web服务操作.md",
     "Nginx/Nginx日志中相关时间变量.md",
-    "Kubernetes/nginx Ingress支持低版本SSL TLS.md",
     "README.md",
+    "Kubernetes/nginx Ingress支持低版本SSL TLS.md",
+    "Nginx/img/nginx请求与时间变量关系.png",
     "Nginx/img",
     "Kubernetes",
     "Nginx"
